@@ -6,12 +6,17 @@ function App() {
   return (
     <div>
       <Router>
-        <Route path="/" exact={true}> 
-          <Dashboard></Dashboard>
-        </Route>
-        <Route path="/login">
-          <Login />
-        </Route>
+        <Switch>
+          <Route path="/" exact={true}>
+            <Dashboard></Dashboard>
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route>
+            <Error></Error>
+          </Route>
+        </Switch>
       </Router>
     </div>
   );
