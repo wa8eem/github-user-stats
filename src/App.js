@@ -7,15 +7,15 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/" exact={true}>
-            <Dashboard></Dashboard>
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route>
-            <Error></Error>
-          </Route>
+        <Route path="/" exact={true}> 
+          <Dashboard></Dashboard>
+        </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path='*'>
+          <Error></Error>
+        </Route>
         </Switch>
       </Router>
     </div>
