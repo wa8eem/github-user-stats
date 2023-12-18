@@ -12,7 +12,7 @@ root.render(
       domain='dev-eyvcmdn404nlozz3.us.auth0.com'
       clientId='UJqwKiMV6gjxek8VWOaIgBX08ZxkKEml'
       redirectUri={window.location.origin}
-      cacheLocation='localstorage'
+      cacheLocation='localstorage' //If you don't have it, After the 404 Error Page you will be kicked out automatically
     >
       <GithubProvider>
         <App />
