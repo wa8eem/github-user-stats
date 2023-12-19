@@ -1,8 +1,6 @@
-## Starter Project
+## Skelton Project : First Commit 
 
 - css provided (global styles, styled components)
-- folders/files already setup
-- all imports included (warnings)
 - index.js for easier imports
 
 ## Styled Components
